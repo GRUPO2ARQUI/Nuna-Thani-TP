@@ -27,6 +27,10 @@ import { EstadoDialogoComponent } from './component/estado/estado-listar/estado-
 import { EstadoListarComponent } from './component/estado/estado-listar/estado-listar.component';
 import { EstadoComponent } from './component/estado/estado.component';
 
+import { UsuarioComponent } from './component/usuario/usuario.component';
+import { UsuarioListarComponent } from './component/usuario/usuario-listar/usuario-listar.component';
+import { UsuarioInsertarComponent } from './component/usuario/usuario-insertar/usuario-insertar.component';
+import { UsuarioDialogoComponent } from './component/usuario/usuario-listar/usuario-dialogo/usuario-dialogo.component';
 
 
 
@@ -44,7 +48,12 @@ import { EstadoComponent } from './component/estado/estado.component';
     EstadoComponent,
     EstadoListarComponent,
     EstadoInsertarComponent,
-    EstadoDialogoComponent
+    EstadoDialogoComponent,
+    
+    UsuarioComponent,
+    UsuarioListarComponent,
+    UsuarioInsertarComponent,
+    UsuarioDialogoComponent,
 
   ],
   imports: [
